@@ -35,7 +35,7 @@ public class BankingSystem {
 	//credit details
 	public void credit() {
 		long Amount;
-		System.out.println("How much amount you want to deposit : ");
+		System.out.println("How much money you want to deposit : ");
 		Amount = sc.nextLong();
 		Balance = Balance + Amount;
 		System.out.println("Available Balance in Your Account : " + Balance);
