@@ -10,6 +10,7 @@ public class BankingSystem {
 	//ACCOUNT OPEN DETAILS OF CUSTOMER
 	Scanner sc = new Scanner(System.in);
 	public void OpenAccount() {
+            System.out.println("sub branch 1");
 		System.out.println("Enter Account Number :");
 		Account_No = sc.next();
 		System.out.println("Enter Customer Name :");
